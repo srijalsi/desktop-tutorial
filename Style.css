@@ -1,0 +1,197 @@
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    background-color: rgb(9, 144, 56);
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    border: 5px solid rgba(10, 0, 5, 0.867);
+    margin-left: 400px;
+    box-shadow: 5px 5px 5px rgb(205, 101, 118);
+
+}
+
+p {
+    text-shadow: 5px black;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 300px;
+    background-color: rgb(9, 144, 56);
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    margin-left: 50px;
+    float: left;
+    border: 5px solid rgba(10, 0, 5, 0.867);
+    box-shadow: 5px 5px 5px rgb(206, 110, 126);
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    /* background-color:rgb(9, 144, 56); */
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    margin-right: 50px;
+    float: right;
+    border: 5px solid rgba(10, 0, 5, 0.867);
+    margin-left: 500px;
+    box-shadow: 5px 5px 5px rgb(185, 98, 113);
+}
+
+img {
+    height: 300px;
+    border-radius: 18px;
+    width: 500px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(9, 144, 56);
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+    border: 5px solid rgba(10, 0, 5, 0.867);
+    box-shadow: 5px 5px 5px rgb(158, 81, 94);
+}
+
+.second {
+    display: flex;
+    display: inline-block;
+    /* border: 5px solid red; */
+}
+
+.form {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(9, 144, 56);
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border: 5px solid rgba(10, 0, 5, 0.867);
+    box-shadow: 5px 5px 5px rgb(161, 75, 90);
+}
+
+.grid {
+    background-color: black;
+    height: 700px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 6px 5px 6px blue;
+    margin-left: 225px;
+
+}
+
+.heading {
+    font-size: x-large;
+}
+
+.Fruits {
+    background-color: yellow;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.veg {
+    background-color: yellow;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+}
+
+.MyStore {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.gridstart {
+    display: grid;
+    grid-template-columns: 370px 370px;
+    grid-template-rows: 270px 230px;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other {
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    width: 740px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Items {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.static {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    color: white;
+    margin-left: 477px;
+    position: fixed;
+    top: 500px;
+    border-radius: 15px;
+    border: 5px solid black;
+}
